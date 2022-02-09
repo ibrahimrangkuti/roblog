@@ -1,0 +1,138 @@
+* {
+  font-family: "Poppins";
+  color: white;
+}
+
+body {
+  background-color: #5803e1;
+  height: 1814pxs;
+}
+
+.navbar-brand {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 18px;
+}
+
+.thumbnail-post {
+  border-radius: 15px;
+}
+
+.post-detail {
+  margin-top: 30px;
+}
+
+.post-title {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+.author-name {
+  font-style: italic;
+}
+
+.author {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.content-preview {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.btn-read-more {
+  margin-top: 15px;
+  border-radius: 10px;
+  background-color: #5202d3;
+  color: white;
+  width: 200px;
+}
+
+.btn-read-more:hover {
+  color: white;
+  background-color: #4e02c9;
+}
+
+#posts .row {
+  margin-top: 50px;
+}
+
+.posts {
+  margin-top: 200px;
+}
+
+.posts-detail {
+  margin-left: -30%;
+}
+
+.posts-title {
+  text-decoration: underline;
+}
+
+.posts-author-name {
+  font-style: italic;
+}
+
+.btn-posts-read-more {
+  border-radius: 10px;
+  background-color: #5202d3;
+  color: white;
+  width: 200px;
+  height: 100%;
+}
+
+.btn-posts-read-more:hover {
+  color: white;
+  background-color: #4e02c9;
+}
+
+#footer {
+  margin-top: 150px;
+  text-align: center;
+}
+
+/* Mobile Screen */
+@media only screen and (max-width: 600px) {
+  .thumbnail-post {
+    width: 100%;
+  }
+
+  .post-detail {
+    margin-top: 5px;
+    text-align: center;
+  }
+
+  .post-title {
+    margin-top: 30px;
+    font-size: 24px;
+  }
+
+  .content-review {
+  }
+
+  .posts {
+    text-align: center;
+  }
+
+  .posts-detail {
+    margin-left: auto;
+  }
+
+  .posts-title {
+    margin-top: 30px;
+    font-size: 24px;
+  }
+}
